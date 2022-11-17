@@ -153,6 +153,9 @@ section{
 }
 
 .contact .row form .btn{
+    padding: 1.2rem;
     text-transform: uppercase;
     font-size: 3.5rem;
-    color: #e48614;}
+    background-color: #d3ad7f;
+    color: #fff;
+}

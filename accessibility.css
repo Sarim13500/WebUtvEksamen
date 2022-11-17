@@ -82,3 +82,23 @@ section{
     padding-bottom: .5rem;
 
 }
+
+
+    
+    .home .text p{
+        font-size: 2rem;
+        font-family: sans-serif;
+        font-weight: lighter;
+        line-height: 1.8;
+        padding: 10rem 0;
+        color: #fff;
+    }
+
+    .home .text p a{
+        color: #fff;
+        text-decoration: underline;
+    }
+    .home .text p a:hover{
+        color: aquamarine;
+        }
+    
