@@ -90,8 +90,8 @@ section{
         font-family: sans-serif;
         font-weight: lighter;
         line-height: 1.8;
-        padding: 10rem 0;
         color: #fff;
+        text-align: center;
     }
 
     .home .text p a{
@@ -101,4 +101,17 @@ section{
     .home .text p a:hover{
         color: aquamarine;
         }
-    
+
+    .home .head{
+            color: #fff;
+            text-align: center;
+            padding: 10rem;
+            font-size: 6rem;
+            size: cover;
+        }
+
+    .home .feil{
+            padding-top: 8rem;
+            text-align: center;
+        }
+

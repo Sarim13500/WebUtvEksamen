@@ -1,12 +1,9 @@
-
-
 :root{
 
     --main-color: #d3ad7f;
     --black: #13131a;
     --bg: #010103;
     --border:.1rem solid rgba(255,255,255,.3);
-
 }
 
 
@@ -84,14 +81,12 @@ section{
     color: var(--main-color);
     border-bottom: .1rem solid var(--main-color);
     padding-bottom: .5rem;
-
 }
-
 
 .info h1{
     color: #fff;
     text-align: center;
-    font-size: 13.6rem;
+    font-size: 8rem;
     margin-top: 10rem;
 }
 
@@ -158,4 +153,29 @@ section{
     font-size: 3.5rem;
     background-color: #d3ad7f;
     color: #fff;
+}
+
+.contact .row form .inputMessage{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: var(--bg);
+    border: var(--border);
+    height: 20rem;
+}
+
+.contact .row form .inputMessage span{
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.contact .row form .inputMessage input{
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+    background: none;
 }
