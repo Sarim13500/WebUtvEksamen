@@ -97,6 +97,12 @@ section{
     font-size: 1.4rem;
 }
 
+.info .innebilde img{
+    height: 50rem;
+    padding-top: 3rem;
+    align-items: center;
+}
+
 .contact .row{
     display: flex;
     background: var(--black);
@@ -171,11 +177,12 @@ section{
     padding-left: 2rem;
 }
 
-.contact .row form .inputMessage input{
-    width: 100%;
+
+.contact .row form .inputMessage .mld{
     padding: 2rem;
     font-size: 1.7rem;
-    color: #fff;
-    text-transform: none;
+    width: 100%;
+    color: gray;
     background: none;
+    text-transform: none;
 }
