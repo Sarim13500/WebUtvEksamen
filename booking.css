@@ -98,9 +98,11 @@ section{
 }
 
 .info .innebilde img{
-    height: 50rem;
-    padding-top: 3rem;
-    align-items: center;
+    display: block;
+    max-width: 80%;
+    margin: 4rem auto;
+    border-radius: 15px;
+
 }
 
 .contact .row{

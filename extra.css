@@ -1,4 +1,5 @@
 
+
 :root{
 
     --main-color: #d3ad7f;
@@ -75,7 +76,6 @@ section{
 }
 
 
-
 .header .navbar a:hover{ 
     color: var(--main-color);
     border-bottom: .1rem solid var(--main-color);
@@ -83,6 +83,13 @@ section{
 
 }
 
+.home .head{
+    color: #fff;
+    text-align: center;
+    padding: 12rem;
+    font-size: 5rem;
+    size: cover;
+}
 
 .home .text p{
     font-size: 2rem;
@@ -92,27 +99,3 @@ section{
     color: #fff;
     text-align: center;
 }
-
-.home .text p a{
-    color: cornflowerblue;
-    text-decoration: underline;
-}
-.home .text p a:hover{
-    color: aquamarine;
-    }
-
-.home .head{
-        color: #fff;
-        text-align: center;
-        padding: 12rem;
-        font-size: 5rem;
-        size: cover;
-    }
-
-    .home .bilder img{
-        padding-top: 8rem;
-        display: block;
-        max-width: 100%;
-        margin: 4rem auto;
-        border-radius: 15px;
-    }

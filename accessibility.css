@@ -110,8 +110,11 @@ section{
             size: cover;
         }
 
-    .home .feil{
+    .home .feil img{
             padding-top: 8rem;
-            text-align: center;
+            display: block;
+            max-width: 100%;
+            margin: 4rem auto;
+            border-radius: 15px;
         }
 
