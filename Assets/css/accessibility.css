@@ -1,8 +1,9 @@
+/* variables to use later*/
 
 
 :root{
 
-    --main-color: #d3ad7f;
+    --main: #d3ad7f;
     --black: #13131a;
     --bg: #010103;
     --border:.1rem solid rgba(255,255,255,.3);
@@ -52,6 +53,7 @@ section{
     padding: 2rem 7%;
 }
 
+/* styling the header*/
 
 .header{
     background: var(--bg);
@@ -77,15 +79,16 @@ section{
 
 
 .header .navbar a:hover{ 
-    color: var(--main-color);
-    border-bottom: .1rem solid var(--main-color);
+    color: var(--main);
+    border-bottom: .1rem solid var(--main);
     padding-bottom: .5rem;
 
 }
 
 
+/* styking the header*/
     
-    .home .text p{
+.home .text p{
         font-size: 2rem;
         font-family: sans-serif;
         font-weight: lighter;
@@ -94,15 +97,16 @@ section{
         text-align: center;
     }
 
-    .home .text p a{
+ .home .text p a{
         color: #fff;
         text-decoration: underline;
     }
-    .home .text p a:hover{
+
+.home .text p a:hover{
         color: aquamarine;
         }
 
-    .home .head{
+.home .head{
             color: #fff;
             text-align: center;
             padding: 10rem;
@@ -110,7 +114,7 @@ section{
             size: cover;
         }
 
-    .home .feil img{
+.home .feil img{
             padding-top: 8rem;
             display: block;
             max-width: 100%;

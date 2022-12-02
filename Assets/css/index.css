@@ -1,8 +1,8 @@
-
+/* variables to use later*/
 
 :root{
 
-    --main-color: #d3ad7f;
+    --main: #d3ad7f;
     --black: #13131a;
     --bg: #010103;
     --border:.1rem solid rgba(255,255,255,.3);
@@ -52,6 +52,7 @@ section{
     padding: 2rem 7%;
 }
 
+/* styling the header*/
 
 .header{
     background: var(--bg);
@@ -69,6 +70,8 @@ section{
     height: 6rem;
 }
 
+
+/* code for styling of navbar as well as the header code above*/
 .header .navbar a{
     margin: 0 1rem;
     font-size: 1.6rem;
@@ -77,11 +80,13 @@ section{
 
 
 .header .navbar a:hover{ 
-    color: var(--main-color);
-    border-bottom: .1rem solid var(--main-color);
+    color: var(--main);
+    border-bottom: .1rem solid var(--main);
     padding-bottom: .5rem;
 
 }
+
+/*The middle of the page. Background and text*/
 
 .home {
     min-height: 100vh;
@@ -144,6 +149,7 @@ color: #fff;
 }
 
 
+/* bottom of the page*/
 .footer{
     background-color: var(--black);
     text-align: center;
@@ -165,7 +171,7 @@ color: #fff;
 }
 
 .footer .share a:hover{
-    background-color: var(--main-color);
+    background-color: var(--main);
 }
 
 .footer .links{
@@ -184,7 +190,7 @@ color: #fff;
 }
 
 .footer .links a:hover{
-    background-color: var(--main-color);
+    background-color: var(--main);
 }
 
 .footer .creds{
@@ -195,5 +201,5 @@ color: #fff;
 }
 
 .footer .creds span{
-    color: var(--main-color);
+    color: var(--main);
 }

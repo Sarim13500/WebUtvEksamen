@@ -1,8 +1,9 @@
 
+/* variables to use later*/
 
 :root{
 
-    --main-color: #d3ad7f;
+    --main: #d3ad7f;
     --black: #13131a;
     --bg: #010103;
     --border:.1rem solid rgba(255,255,255,.3);
@@ -52,6 +53,7 @@ section{
     padding: 2rem 7%;
 }
 
+/* styling the header*/
 
 .header{
     background: var(--bg);
@@ -81,12 +83,14 @@ section{
 
 
 .header .navbar a:hover{ 
-    color: var(--main-color);
-    border-bottom: .1rem solid var(--main-color);
+    color: var(--main);
+    border-bottom: .1rem solid var(--main);
     padding-bottom: .5rem;
 
 }
 
+
+/*styling the boxes*/
 
 .menu .box-container{
     display: grid;
