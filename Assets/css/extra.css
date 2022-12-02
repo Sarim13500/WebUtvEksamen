@@ -99,3 +99,20 @@ section{
     color: #fff;
     text-align: center;
 }
+
+.home .table{
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 10rem;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.home .table img{
+    max-width: 5rem;
+}
+
+.home ,th ,tr,td{
+    border: solid;
+}

@@ -87,7 +87,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(Bilder/restaurant-sørenga.jpg) no-repeat;
+    background: url(../Bilder/restaurant-sørenga.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
